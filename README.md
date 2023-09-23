@@ -1,6 +1,6 @@
-Prostate-Cancer-Gene-Selection.
+## Prostate-Cancer-Gene-Selection.
 
-A new hybrid gene selection model for prostate cancer diagnosis.
+## A new hybrid gene selection model for prostate cancer diagnosis.
 
 % Crow Search Algorithm.
 
@@ -28,10 +28,14 @@ BCCSA.m ==> Feature selection via chaotic crow search algorithm.
 
 ------------------------------------------------------------------------------------
 Folders descripton:
+
 Data ==> prostate dataset file.
+
 Feature selection ==> feature selection methods for step 1.
+
 GeneIndex_and_Accuracy_CSV_Outputs ==> Selected gene indexes with their accuracy that produced as CSV files.
---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
 Getting Started:
 Running Main_crow_search.m file will done the all steps automatically.
 -------------------------------------------------------------------------
