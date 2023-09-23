@@ -2,10 +2,14 @@ Prostate-Cancer-Gene-Selection.
 
 A new hybrid gene selection model for prostate cancer diagnosis.
 
-% Crow Search Algorithm. 
+% Crow Search Algorithm.
+
 % Orignal code: https://www.mathworks.com/matlabcentral/fileexchange/64609-binary-chaotic-crow-search-algorithm
+
 % Feature selection via a novel chaotic crow search algorithm.
+
 % https://link.springer.com/article/10.1007/s00521-017-2988-6https://link.springer.com/article/10.1007/s00521-017-2988-6
+
 % Feature selection based on crow search and kNN classifier.
 ==========================================================================================================================
 Files description:
