@@ -34,7 +34,7 @@ GeneIndex_and_Accuracy_CSV_Outputs ==> Selected gene indexes with their accuracy
 
 ## Getting Started:
 
-Running Main_crow_search.m file will done the all steps automatically.
+Running Main_crow_search.m file will done all steps automatically.
 
 ## Results:
 
