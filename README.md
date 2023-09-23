@@ -16,7 +16,7 @@
 
 Main_crow_search.m ==> Main file.
 
-BinaryInitialization.m ==> Initialize population positions and got their fitness.
+BinaryInitialization.m ==> Initialize population positions and calculate their fitness.
 
 obj.m ==> Object function to calculate fitness by KNN classifier.
 
