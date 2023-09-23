@@ -12,9 +12,9 @@
 
 % Feature selection based on crow search and kNN classifier.
 
-=====================================================================================
+------------------------------------------------------------------------------------
 
-Files description:
+# Files description:
 
 Main_crow_search.m ==> Main file.
 
