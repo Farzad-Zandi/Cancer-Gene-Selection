@@ -36,16 +36,27 @@ Feature selection ==> feature selection methods for step 1.
 GeneIndex_and_Accuracy_CSV_Outputs ==> Selected gene indexes with their accuracy that produced as CSV files.
 
 ---------------------------------------------------------------------------------------
+
 Getting Started:
+
 Running Main_crow_search.m file will done the all steps automatically.
+
 -------------------------------------------------------------------------
+
 Results:
+
 For 10 iteration:
+
     For each feature selection method (1 to 6).
+    
     For each chaotic vectors (1:10) in addition to const0.5 and random numbers.
+    
     For max Iteration.
+    
     For APfl method.
+    
     Matlab outputs as .mat files generate.
+    
 As a results for each chaotic, 54 .mat file will be generate.
 
     
