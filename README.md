@@ -42,13 +42,13 @@ For 10 iteration:
 
     For each feature selection method (1 to 6).
     
-    For each chaotic vectors (1:10) in addition to const0.5 and random numbers.
+    For each chaotic vectors (1 to 10) in addition to const0.5 and random numbers.
     
-    For max Iteration.
+    For 1 to max Iteration.
     
-    For APfl method.
+    For APfl methods.
     
-    Matlab outputs as .mat files generate.
+        Generate matlab outputs as .mat files.
     
 As a results for each chaotic, 54 .mat file will be generate.
 
