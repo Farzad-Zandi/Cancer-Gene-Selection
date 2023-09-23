@@ -11,13 +11,21 @@ A new hybrid gene selection model for prostate cancer diagnosis.
 % https://link.springer.com/article/10.1007/s00521-017-2988-6https://link.springer.com/article/10.1007/s00521-017-2988-6
 
 % Feature selection based on crow search and kNN classifier.
+
 ==========================================================================================================================
+
 Files description:
+
 Main_crow_search.m ==> Main file.
+
 BinaryInitialization.m ==> Initialize population positions and got their fitness.
+
 obj.m ==> Object function to calculate fitness by KNN classifier.
+
 chaos.m ==> Generate Chaotic vectors.
+
 BCCSA.m ==> Feature selection via chaotic crow search algorithm.
+
 ------------------------------------------------------------------------------------
 Folders descripton:
 Data ==> prostate dataset file.
