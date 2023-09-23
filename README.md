@@ -2,7 +2,7 @@
 
 ### A new hybrid gene selection model for prostate cancer diagnosis.
 
-### Files description:
+## Files description:
 
 Main_crow_search.m ==> Main file.
 
@@ -14,7 +14,7 @@ chaos.m ==> Generate Chaotic vectors.
 
 BCCSA.m ==> Feature selection via chaotic crow search algorithm.
 
-### Folders descripton:
+## Folders descripton:
 
 Data ==> prostate dataset file.
 
@@ -22,11 +22,11 @@ Feature selection ==> feature selection methods for step 1.
 
 GeneIndex_and_Accuracy_CSV_Outputs ==> Selected gene indexes with their accuracy that produced as CSV files.
 
-### Getting Started:
+## Getting Started:
 
 Running Main_crow_search.m file will done all steps automatically.
 
-### Results:
+## Results:
 
 For 10 iteration:
 
