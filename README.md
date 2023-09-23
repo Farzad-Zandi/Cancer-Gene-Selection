@@ -14,7 +14,7 @@
 
 ------------------------------------------------------------------------------------
 
-# Files description:
+## Files description:
 
 Main_crow_search.m ==> Main file.
 
@@ -27,7 +27,7 @@ chaos.m ==> Generate Chaotic vectors.
 BCCSA.m ==> Feature selection via chaotic crow search algorithm.
 
 ------------------------------------------------------------------------------------
-Folders descripton:
+## Folders descripton:
 
 Data ==> prostate dataset file.
 
@@ -37,13 +37,13 @@ GeneIndex_and_Accuracy_CSV_Outputs ==> Selected gene indexes with their accuracy
 
 ---------------------------------------------------------------------------------------
 
-Getting Started:
+## Getting Started:
 
 Running Main_crow_search.m file will done the all steps automatically.
 
 -------------------------------------------------------------------------
 
-Results:
+## Results:
 
 For 10 iteration:
 
