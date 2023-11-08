@@ -1,6 +1,6 @@
 ## Prostate-Cancer-Gene-Selection.
 
-### A new hybrid gene selection model for prostate cancer diagnosis.
+### A new hybrid gene selection method for diagnosing prostate cancer.
 
 ## Files description:
 
@@ -14,9 +14,11 @@ chaos.m ==> Generate Chaotic vectors.
 
 BCCSA.m ==> Feature selection via chaotic crow search algorithm.
 
+PSO_ABC_FA_SSO ==> Feature selection through Meta-heuristic (PSO, ABC, FA, and SSO) algorithms using python Mealpy package.
+
 ## Folders descripton:
 
-Data ==> prostate dataset file.
+Data ==> prostate dataset files in .csv and .mat.
 
 Feature selection ==> feature selection methods for step 1.
 
@@ -25,6 +27,8 @@ GeneIndex_and_Accuracy_CSV_Outputs ==> Selected gene indexes with their accuracy
 ## Getting Started:
 
 Running Main_crow_search.m file will done all steps automatically.
+
+Running PSO_ABC_FA_SSO.py file will done gene selection by PSO, ABC, FA, and SSO algorithms.
 
 ## Results:
 
