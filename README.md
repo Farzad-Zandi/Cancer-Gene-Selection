@@ -28,8 +28,6 @@ GeneIndex_and_Accuracy_CSV_Outputs ==> Selected gene indexes with their accuracy
 
 Running Main_crow_search.m file will done all steps automatically.
 
-Running PSO_ABC_FA_SSO.py file will done gene selection by PSO, ABC, FA, and SSO algorithms.
-
 ## Results:
 
 For 10 iteration:
