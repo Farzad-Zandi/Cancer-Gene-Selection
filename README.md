@@ -1,6 +1,6 @@
 ## Cancer-Gene-Selection.
 
-### A new hybrid gene selection method for diagnosing prostate cancer.
+### A new hybrid gene selection method for diagnosing cancer diseases.
 
 ## Files description:
 
@@ -13,8 +13,6 @@ obj.m ==> Object function to calculate fitness by KNN classifier.
 chaos.m ==> Generate Chaotic vectors.
 
 BCCSA.m ==> Feature selection via chaotic crow search algorithm.
-
-PSO_ABC_FA_SSO ==> Feature selection through Meta-heuristic (PSO, ABC, FA, and SSO) algorithms using python Mealpy package.
 
 ## Folders descripton:
 
