@@ -1,4 +1,4 @@
-## Prostate-Cancer-Gene-Selection.
+## Cancer-Gene-Selection.
 
 ### A new hybrid gene selection method for diagnosing prostate cancer.
 
