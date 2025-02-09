@@ -19,8 +19,7 @@ To run the model, follow the steps below:
    - For each chaotic vectors (1 to 10) in addition to const0.5 and random numbers.
    - For 1 to max Iteration.
    - For APfl methods.
-   - Generate matlab outputs as .mat files.
-   As a results for each chaotic, 54 .mat file will be generate.
+   - Generate matlab outputs as `.mat` files. As a results for each chaotic, 54 .mat file will be generate.
 ## Citiation
 ## Contact
 For further inquiries, please contact us:
