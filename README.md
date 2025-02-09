@@ -12,7 +12,7 @@ Prostate dataset files are available in `.csv` and `.mat` format in Data folder.
 Feature selection methods for step 1 are available in Feature selection folder.  
 Selected gene indexes with their accuracy that produced as `.csv` files are available in GeneIndex_and_Accuracy_CSV_Outputs folder.
 ## Usage
-To run the model, follow the steps below:
+To run the model, follow the steps below:  
 1. Running `Main_crow_search.m` file will done all steps automatically.  
    - For 10 iteration:
    - For each feature selection method (1 to 6).
