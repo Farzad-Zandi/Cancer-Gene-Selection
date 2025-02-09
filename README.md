@@ -8,8 +8,8 @@ Cancer, OMICs techniques, Swarm intelligent, Genetic markers, Feature selection,
 Farzad Zandi, Zoya Faruqui, Parvaneh Mansouri, Mohammad Goodarzi.
 ## DOI and Links
 ## Description
-Prostate dataset files are available in `.csv` and `.mat` format in Data folder.
-Feature selection methods for step 1 are available in Feature selection folder.
+Prostate dataset files are available in `.csv` and `.mat` format in Data folder.  
+Feature selection methods for step 1 are available in Feature selection folder.  
 Selected gene indexes with their accuracy that produced as `.csv` files are available in GeneIndex_and_Accuracy_CSV_Outputs folder.
 ## Description
 Datasets are available in the `Datasets` folder in `.mat` and `.csv` format.  
