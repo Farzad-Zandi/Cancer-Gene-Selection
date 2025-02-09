@@ -11,14 +11,9 @@ Farzad Zandi, Zoya Faruqui, Parvaneh Mansouri, Mohammad Goodarzi.
 Prostate dataset files are available in `.csv` and `.mat` format in Data folder.  
 Feature selection methods for step 1 are available in Feature selection folder.  
 Selected gene indexes with their accuracy that produced as `.csv` files are available in GeneIndex_and_Accuracy_CSV_Outputs folder.
-## Description
-Datasets are available in the `Datasets` folder in `.mat` and `.csv` format.  
-Feature extraction methods are available in the `feature extraction` folder implemented by MATLAB programming language.  
-Feature selection method (Binary Bat Algorithm) is available in the `feature selection` folder implemented by MATLAB programming language. 
 ## Usage
 To run the model, follow the steps below:
-1. Running `Main_crow_search.m` file will done all steps automatically.
-
+1. Running `Main_crow_search.m` file will done all steps automatically.  
    - For 10 iteration:
    - For each feature selection method (1 to 6).
    - For each chaotic vectors (1 to 10) in addition to const0.5 and random numbers.
