@@ -1,16 +1,16 @@
 # A new hybrid gene selection method for diagnosing cancer diseases
 ![Graphical Abstract](https://github.com/Farzad-Zandi/ancer-Gene-Selection/blob/main/Graphical%20Abstract.png)
 ## Abstract
-Understanding many biological processes relies heavily on accurately predicting protein-protein interactions (PPIs). In this study, we propose a novel method for predicting PPIs that is based on LogitBoost with a binary bat feature selection algorithm. Our approach involves the extraction of an initial feature vector by combining pseudo amino acid composition (PseAAC), pseudo-position-specific scoring matrix (PsePSSM), reduced sequence and index-vectors (RSIV), and autocorrelation descriptor (AD). Subsequently, a binary bat algorithm is applied to eliminate redundant features, and the resulting optimal features are fed into the LogitBoost classifier for the identification of PPIs. To evaluate the proposed method, we test it on two databases, Saccharomyces cerevisiae and Helicobacter pylori, using 10-fold cross-validation, and achieve accuracies of 94.39% and 97.89%, respectively. Our results showcase the significant potential of our pipeline in accurately predicting protein-protein interactions (PPIs), thereby offering a valuable resource to the scientific research community.
+Cancer remains a significant global health challenge, contributing to nearly 10 million deaths each year and imposing substantial burdens on individuals and healthcare systems worldwide. Thanks to the availability of analytical techniques, we can now generate thousands of data points using various OMICs techniques, such as proteomics, metabolomics, and genomics, for any given samples. However, dealing with such complex and multidimensional data introduces higher complexity, requiring the use of proper techniques to extract biologically relevant information. In this study, we employed three microarray datasets for Prostate, SRBCT, and Leukemia cancers, introducing a novel swarm intelligent technique to identify a precise and effective set of genetic markers. This approach aims to enhance diagnostic and prognostic accuracy while simplifying computational processes. Utilizing six common dimensionality reduction techniques and applying a Chaotic Crow Search feature selection with specific APfl parameters, we refined the top 10 genes using parallel computing. The combination of Fisher Score and Chaotic Crow Search yielded accuracy ranging from 92.63 to 96.23. Ultimately, this study successfully pinpointed a small set of genes, fewer than 10, with accuracy values spanning 90.83 to 96.23, potentially valuable for 3 very diverse cancers. The selected genes exhibit functional enrichment in biological processes (BP) related to lymphocyte differentiation, mononuclear cell differentiation, and B cell differentiation. In terms of cellular components (CC), the genes are associated with tertiary granule, secretory granule lumen, cytoplasmic vesicle lumen, and vesicle lumen. Additionally, the molecular functions (MF) of these genes include endopeptidase inhibitor activity, peptidase inhibitor activity, and endopeptidase regulator activity. This enriched gene profile suggests potential implications for cancer diagnosis, particularly in understanding the regulatory mechanisms and differentiation processes that may play crucial roles in cancer pathogenesis and progression.
 ## Keyword
-Predicting protein-protein interactions, Features extraction, Features selection, Machine learning, Swarm intelligence, Ensemble learning.
+Cancer, OMICs techniques, Swarm intelligent, Genetic markers, Feature selection, Parallel computing.
 ## Authors
 Farzad Zandi, Parvaneh Mansouri, Mohammad Goodarzi.
 ## DOI and Links
 ## Description
-Datasets are available in the `Datasets` folder in `.mat` and `.csv` format.  
-Feature extraction methods are available in the `feature extraction` folder implemented by MATLAB programming language.  
-Feature selection method (Binary Bat Algorithm) is available in the `feature selection` folder implemented by MATLAB programming language.  
+Prostate dataset files are available in `.csv` and `.mat` format in Data folder.
+Feature selection methods for step 1 are available in Feature selection folder.
+Selected gene indexes with their accuracy that produced as `.csv` files are available in GeneIndex_and_Accuracy_CSV_Outputs folder.
 ## Usage
 To run the model, follow the steps below:
 
@@ -62,11 +62,6 @@ BCCSA.m ==> Feature selection via chaotic crow search algorithm.
 
 ## Folders descripton:
 
-Data ==> prostate dataset files in .csv and .mat.
-
-Feature selection ==> feature selection methods for step 1.
-
-GeneIndex_and_Accuracy_CSV_Outputs ==> Selected gene indexes with their accuracy that produced as CSV files.
 
 ## Getting Started:
 
