@@ -5,7 +5,7 @@ Cancer remains a significant global health challenge, contributing to nearly 10 
 ## Keyword
 Cancer, OMICs techniques, Swarm intelligent, Genetic markers, Feature selection, Parallel computing.
 ## Authors
-Farzad Zandi, Parvaneh Mansouri, Mohammad Goodarzi.
+Farzad Zandi, Zoya Faruqui, Parvaneh Mansouri, Mohammad Goodarzi.
 ## DOI and Links
 ## Description
 Prostate dataset files are available in `.csv` and `.mat` format in Data folder.
@@ -13,31 +13,15 @@ Feature selection methods for step 1 are available in Feature selection folder.
 Selected gene indexes with their accuracy that produced as `.csv` files are available in GeneIndex_and_Accuracy_CSV_Outputs folder.
 ## Usage
 To run the model, follow the steps below:
+1. Running `Main_crow_search.m` file will done all steps automatically.
 
-1. Extract features with 4 feature extraction methods: AD, RSIV, PsePSSM, PseAAC as follows:
-   - Run `Auto_yeast.m` for extracting autocorrelation descriptor features.
-     ```sh
-     Auto_yeast.m
-     ```
-   - Run `selectfeature_Y.m` for extracting reduced sequence and index-vectors features.
-     ```sh
-     selectfeature_Y.m
-     ```
-   - Run `PAAC_Y.m` for extracting pseudo amino acid composition features.
-     ```sh
-     PAAC_Y.m
-     ```
-   - Create pseudo-position-specific scoring matrix with Blast and run `PsePSSM_y.m` for extracting pseudo-position-specific scoring matrix features.
-     ```sh
-     PsePSSM_y.m
-     ```
-2. Fuse the 4 extracted data sets to construct a 1318-dimension vector.
-3. Run BBA code for extracting the best features and save the obtained data.
-     ```sh
-     BBA.m
-     ```
-4. Predict using any machine learning method you prefer.
-
+   - For 10 iteration:
+   - For each feature selection method (1 to 6).
+   - For each chaotic vectors (1 to 10) in addition to const0.5 and random numbers.
+   - For 1 to max Iteration.
+   - For APfl methods.
+   - Generate matlab outputs as .mat files.   
+As a results for each chaotic, 54 .mat file will be generate.
 ## Citiation
 ## Contact
 For further inquiries, please contact us:
@@ -46,41 +30,3 @@ For further inquiries, please contact us:
 - Email: [zandi_farzad@yahoo.com](zandi_farzad@yahoo.com)
 - Email: [info@zandigroup.ir](info@zandigroup.ir)
 - LinkedIn: [Farzad Zandi](https://www.linkedin.com/in/farzad-zandi-86a37326a/)
-
-
-## Files description:
-
-Main_crow_search.m ==> Main file.
-
-BinaryInitialization.m ==> Initialize population positions and calculate their fitness.
-
-obj.m ==> Object function to calculate fitness by KNN classifier.
-
-chaos.m ==> Generate Chaotic vectors.
-
-BCCSA.m ==> Feature selection via chaotic crow search algorithm.
-
-## Folders descripton:
-
-
-## Getting Started:
-
-Running Main_crow_search.m file will done all steps automatically.
-
-## Results:
-
-For 10 iteration:
-
-    For each feature selection method (1 to 6).
-    
-    For each chaotic vectors (1 to 10) in addition to const0.5 and random numbers.
-    
-    For 1 to max Iteration.
-    
-    For APfl methods.
-    
-        Generate matlab outputs as .mat files.
-    
-As a results for each chaotic, 54 .mat file will be generate.
-
-    
